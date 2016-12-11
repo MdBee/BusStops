@@ -15,7 +15,7 @@ extension Notification.Name {
 class Config: NSObject {
 
     static var stopsList = Config.localStopsList()
-    static let token = "8e72a140-c5a0-4bed-a401-7aaa9bb6fa10" //get your own token here: http://511.org/developers/list/tokens/create
+    static let token = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx" //get your own token here: http://511.org/developers/list/tokens/create
     static let dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
     static let agency = "Golden%20Gate%20Transit"
     
