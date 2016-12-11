@@ -9,7 +9,13 @@ Swift 3.
 
 **api.511.org**
 
-You'll need to get your own token (http://511.org/developers/list/tokens/create) for the Config.swift.
+You'll need to get your own token (http://511.org/developers/list/tokens/create) and create an Environment.swift to hold it:
+```import Foundation
+
+class Environment: NSObject {
+    //get your own token here: http://511.org/developers/list/tokens/create
+    static let token = "8e72a140-c5a0-4bed-a401-7aaa9bb6fa10"
+}```
 
 **Carthage**
 
