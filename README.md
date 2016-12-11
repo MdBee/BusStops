@@ -6,10 +6,8 @@ Playing around with the 511.org API.
 
 **Carthage**
 
-Add the following to your Cartfile: 
-github "ReactiveKit/Bond" ~> 5.2
-Run carthage update
-Add the framework as described in Carthage Readme
+1. Run `carthage update`
+2. Add the framework as described in [Carthage Readme](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application)
 
 ##License
 
