@@ -1,6 +1,9 @@
 # BusStops
 Playing around with the 511.org API.
 
+Swift 3.
+
+
 
 ##Installation
 
