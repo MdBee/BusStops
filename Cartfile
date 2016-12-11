@@ -1,0 +1,2 @@
+github "ReactiveKit/ReactiveKit" ~> 3.0
+github "ReactiveKit/Bond" ~> 5.1
