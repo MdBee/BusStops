@@ -113,7 +113,6 @@ class ViewController: UIViewController {
         stopIdsArray.map({
             $0.map( {
                 let indexPath = IndexPath(item:itemsCounter,section:sectionCounter)
-                print("indexPath for stop_id "+String(describing: $0)+" = "+indexPath.description)
                 NetworkManager.sharedInstance.getData(stop:$0,indexPath:indexPath)
                 itemsCounter += 1
             })

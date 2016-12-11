@@ -34,11 +34,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "BusStops/ViewController.swift"
-            timestampString = "503118346.228012"
+            timestampString = "503119595.418735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "refreshData()"
             landmarkType = "7">
             <Actions>
