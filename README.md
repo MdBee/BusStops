@@ -2,16 +2,16 @@
 Playing around with the 511.org API.
 
 
-Installation
+##Installation
 
-Carthage
+**Carthage**
 
 Add the following to your Cartfile: 
 github "ReactiveKit/Bond" ~> 5.2
 Run carthage update
 Add the framework as described in Carthage Readme
 
-License
+##License
 
 The MIT License (MIT)
 
