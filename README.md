@@ -7,6 +7,10 @@ Swift 3.
 
 ##Installation
 
+**api.511.org**
+
+You'll need to get your own token (http://511.org/developers/list/tokens/create) for the Config.swift.
+
 **Carthage**
 
 1. Run `carthage update`
