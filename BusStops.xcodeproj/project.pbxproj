@@ -14,6 +14,7 @@
 		420495AE1DF3B5CD00D11DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420495AC1DF3B5CD00D11DBE /* LaunchScreen.storyboard */; };
 		420495B91DF3B5CD00D11DBE /* BusStopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420495B81DF3B5CD00D11DBE /* BusStopsTests.swift */; };
 		420495C41DF3B5CD00D11DBE /* BusStopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420495C31DF3B5CD00D11DBE /* BusStopsUITests.swift */; };
+		4282341A1DFDAA8B0058448F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428234191DFDAA8B0058448F /* Environment.swift */; };
 		4299A5341DF75F36008D0CDC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4299A5331DF75F36008D0CDC /* Config.swift */; };
 		42A96C811DF3C8C300048AEE /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A96C7C1DF3C81C00048AEE /* Bond.framework */; };
 		42A96C821DF3C8C600048AEE /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A96C7E1DF3C81F00048AEE /* ReactiveKit.framework */; };
@@ -51,6 +52,7 @@
 		420495BF1DF3B5CD00D11DBE /* BusStopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusStopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420495C31DF3B5CD00D11DBE /* BusStopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsUITests.swift; sourceTree = "<group>"; };
 		420495C51DF3B5CD00D11DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428234191DFDAA8B0058448F /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		4299A5331DF75F36008D0CDC /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		42A96C7C1DF3C81C00048AEE /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
 		42A96C7E1DF3C81F00048AEE /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				420495AC1DF3B5CD00D11DBE /* LaunchScreen.storyboard */,
 				420495AF1DF3B5CD00D11DBE /* Info.plist */,
 				4299A5331DF75F36008D0CDC /* Config.swift */,
+				428234191DFDAA8B0058448F /* Environment.swift */,
 			);
 			path = BusStops;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				4299A5341DF75F36008D0CDC /* Config.swift in Sources */,
 				420495A61DF3B5CD00D11DBE /* ViewController.swift in Sources */,
 				420495A41DF3B5CD00D11DBE /* AppDelegate.swift in Sources */,
+				4282341A1DFDAA8B0058448F /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
