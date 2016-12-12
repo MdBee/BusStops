@@ -111,7 +111,7 @@ class ViewController: UIViewController {
         var sectionCounter = 0
         var itemsCounter = 0
         stopIdsArray.map({
-            $0.map( {
+            $0.map({
                 let indexPath = IndexPath(item:itemsCounter,section:sectionCounter)
                 NetworkManager.sharedInstance.getData(stop:$0,indexPath:indexPath)
                 itemsCounter += 1
